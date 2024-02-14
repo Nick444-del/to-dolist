@@ -22,7 +22,7 @@ function App() {
 
   const handleCheckbox = (e) => {
     let id = e.target.name;
-    
+
   }
   
 
@@ -38,8 +38,6 @@ function App() {
         <h2 className='text-lg font-bold'>Your Todos list</h2>
         <div className="todos">
           {todos.map(items => {
-
-
             return <div key={todo} className="todo flex justify-between w-1/2 my-3">
               <input onChange={handleCheckbox} type="checkbox" value={todo.isCompleted} name={todo.id} id="" />
               <div className={items.isCompleted?"line-through":""}>{items.todo}</div>
