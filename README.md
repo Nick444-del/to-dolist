@@ -1,6 +1,7 @@
-# React + Vite
+# Todo list web application
+## Made in Vitejs, Reactjs and Tailwindcss
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application will do all the basic functionality of a todolist application and it has a local storage so no need to signin or no data leak problem.
 
 Currently, two official plugins are available:
 
